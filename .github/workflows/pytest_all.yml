@@ -84,9 +84,6 @@ jobs:
     container:
       image: ghcr.io/snowflake-labs/pg-lake-ci-pg-almalinux:${{ needs.build-image-almalinux.outputs.tag }}
       options: --user 1001 --shm-size=128MB
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.github_token }}
 
     strategy:
       fail-fast: false
@@ -109,9 +106,6 @@ jobs:
     container:
       image: ghcr.io/snowflake-labs/pg-lake-ci-pg-debian:${{ needs.build-image-debian.outputs.tag }}
       options: --user 1001 --shm-size=128MB
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.github_token }}
 
     strategy:
       fail-fast: false
@@ -142,9 +136,6 @@ jobs:
     container:
       image: ghcr.io/snowflake-labs/pg-lake-ci-pg-almalinux:${{ needs.build-image-almalinux.outputs.tag }}
       options: --user 1001 --shm-size=128MB
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.github_token }}
 
     strategy:
       fail-fast: false
@@ -180,9 +171,6 @@ jobs:
     container:
       image: ghcr.io/snowflake-labs/pg-lake-ci-pg-almalinux:${{ needs.build-image-almalinux.outputs.tag }}
       options: --user 1001 --shm-size=128MB
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.github_token }}
 
     strategy:
       fail-fast: false
@@ -212,9 +200,6 @@ jobs:
     container:
       image: ghcr.io/snowflake-labs/pg-lake-ci-pg-debian:${{ needs.build-image-debian.outputs.tag }}
       options: --user 1001 --shm-size=128MB
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.github_token }}
 
     strategy:
       fail-fast: false
@@ -248,9 +233,6 @@ jobs:
     container:
       image: ghcr.io/snowflake-labs/pg-lake-ci-pg-debian:${{ needs.build-image-debian.outputs.tag }}
       options: --user 1001 --shm-size=128MB
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.github_token }}
 
     strategy:
       fail-fast: false
@@ -287,9 +269,6 @@ jobs:
     container:
       image: ghcr.io/snowflake-labs/pg-lake-ci-pg-debian:${{ needs.build-image-debian.outputs.tag }}
       options: --user 1001 --shm-size=128MB
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.github_token }}
 
     strategy:
       fail-fast: false
@@ -320,9 +299,6 @@ jobs:
     container:
       image: ghcr.io/snowflake-labs/pg-lake-ci-pg-almalinux:${{ needs.build-image-almalinux.outputs.tag }}
       options: --user 1001 --shm-size=128MB
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.github_token }}
 
     strategy:
       fail-fast: false
@@ -349,9 +325,6 @@ jobs:
     container:
       image: ghcr.io/snowflake-labs/pg-lake-ci-pg-almalinux:${{ needs.build-image-almalinux.outputs.tag }}
       options: --user 1001 --shm-size=128MB
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.github_token }}
 
     strategy:
       fail-fast: false

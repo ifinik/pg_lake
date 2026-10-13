@@ -22,9 +22,6 @@ jobs:
       options: --user 1001 --shm-size=128MB
       volumes:
         - /usr/local:/host/usr/local
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - uses: actions/checkout@v5
